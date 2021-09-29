@@ -403,11 +403,6 @@
     'body': 'dtml-comment>\n\t$1\n</dtml-comment>'
     'description': 'Alle Lines innerhalb dem Comment werden ignoriert. Man sollte statt dem normalen HTML Comment diesen verwenden.'
     'descriptionMoreURL': 'http://intranet.atikon.at/content/inhalte/dtml_dokumentation/dtml_syntax/dtml_comment'
-  '<dtml-comment> inline':
-    'prefix': 'dtml-comin'
-    'body': 'dtml-comment> $1 </dtml-comment>'
-    'description': 'Genau wie <dtml-comment>, nur wird der Kommentar inline gestellt.'
-    'descriptionMoreURL': 'http://intranet.atikon.at/content/inhalte/dtml_dokumentation/dtml_syntax/dtml_comment'
   '<dtml-var dump>':
     'prefix': 'dtml-var-dump'
     'body': 'dtml-var "${1:variable}" dump>$2'
@@ -862,11 +857,6 @@
     'body': '<dtml-comment>$1</dtml-comment>'
     'description': 'Alle Lines innerhalb dem Comment werden ignoriert. Man sollte statt dem normalen HTML Comment diesen verwenden.'
     'descriptionMoreURL': 'http://intranet.atikon.at/content/inhalte/dtml_dokumentation/dtml_syntax/dtml_comment'
-  '<dtml-comment> inline':
-    'prefix': 'dtml-comin'
-    'body': '<dtml-comment>$1</dtml-comment>'
-    'description': 'Genau wie <dtml-comment>, nur wird der Kommentar inline gestellt.'
-    'descriptionMoreURL': 'http://intranet.atikon.at/content/inhalte/dtml_dokumentation/dtml_syntax/dtml_comment'
   '<dtml-var dump>':
     'prefix': 'dtml-var-dump'
     'body': '<dtml-var "${1:variable}" dump>$2'
@@ -926,11 +916,6 @@
     'prefix': '<dtml-com'
     'body': '<dtml-comment>$1</dtml-comment>'
     'description': 'Alle Lines innerhalb dem Comment werden ignoriert. Man sollte statt dem normalen HTML Comment diesen verwenden.'
-    'descriptionMoreURL': 'http://intranet.atikon.at/content/inhalte/dtml_dokumentation/dtml_syntax/dtml_comment'
-  '<dtml-comment> inline':
-    'prefix': '<dtml-comin'
-    'body': '<dtml-comment>$1</dtml-comment>'
-    'description': 'Genau wie <dtml-comment>, nur wird der Kommentar inline gestellt.'
     'descriptionMoreURL': 'http://intranet.atikon.at/content/inhalte/dtml_dokumentation/dtml_syntax/dtml_comment'
   '<dtml-var dump> inline':
     'prefix': '<dtml-var-dump'
@@ -1241,23 +1226,11 @@
     'description': 'Gibt die UID des Objektes zurück.'
     'descriptionMoreURL': 'http://intranet.atikon.at/content/inhalte/dtml_dokumentation/cms_objekte/seitenelement/get_uid_/index_ger.html'
     'leftLabel': 'Seitenelement >'
-  'is_active()':
-    'prefix': 'is_active'
-    'body': 'is_active()$1'
-    'description': 'Ist Seitenelement aktiv?'
-    'descriptionMoreURL': 'http://intranet.atikon.at/content/inhalte/dtml_dokumentation/cms_objekte/seitenelement/is_active_/index_ger.html'
-    'leftLabel': 'Seitenelement >'
   'is_translated( Sprache )':
     'prefix': 'is_translated'
     'body': 'is_translated($1)$2'
     'description': 'True oder False, je nachdem, ob das Objekt in der momentanen oder übergebenen Sprache verfügbar ist.'
     'descriptionMoreURL': 'http://intranet.atikon.at/content/inhalte/dtml_dokumentation/cms_objekte/seitenelement/is_translated_/index_ger.html'
-    'leftLabel': 'Seitenelement >'
-  'is_visible()':
-    'prefix': 'is_visible'
-    'body': 'is_visible()$1'
-    'description': 'Ist Seitenelement sichtbar?'
-    'descriptionMoreURL': 'http://intranet.atikon.at/content/inhalte/dtml_dokumentation/cms_objekte/seitenelement/is_visible_/index_ger.html'
     'leftLabel': 'Seitenelement >'
   'scaled()':
     'prefix': 'scaled'
@@ -1384,11 +1357,6 @@
     'prefix': 'dtml-com'
     'body': '<dtml-comment>$1</dtml-comment>'
     'description': 'Alle Lines innerhalb dem Comment werden ignoriert. Man sollte statt dem normalen HTML Comment diesen verwenden.'
-    'descriptionMoreURL': 'http://intranet.atikon.at/content/inhalte/dtml_dokumentation/dtml_syntax/dtml_comment'
-  '<dtml-comment> inline':
-    'prefix': 'dtml-comin'
-    'body': '<dtml-comment>$1</dtml-comment>'
-    'description': 'Genau wie <dtml-comment>, nur wird der Kommentar inline gestellt.'
     'descriptionMoreURL': 'http://intranet.atikon.at/content/inhalte/dtml_dokumentation/dtml_syntax/dtml_comment'
   '<dtml-var dump>':
     'prefix': 'dtml-var-dump'
